@@ -1,0 +1,19 @@
+
+.bloc1 {
+    background-color: rgb(109, 122, 109);
+    height: 250px; 
+    width: 250px;
+    text-align: center;
+    border: 5px solid;
+}
+.bloc2 {
+    background-color :rgb(109, 122, 109);
+    height: 250px; 
+    width: 250px;
+    text-align: center;
+    border: 5px solid;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
