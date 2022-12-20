@@ -1,0 +1,82 @@
+.body {
+    background-image: url(../img/back-cover.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 990px;
+    background-color: hsla(358, 28%, 95%, 0.85);
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 15px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+nav a:hover {
+    color: #b32;
+}
+.q {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+section {
+    width: 280px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+article {
+    width: 640px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main {
+    display: flex;
+}
+aside {
+    display: flex;
+    justify-content: left;
+    border-top: 2px solid rgb(161, 160, 160);
+}
+figure {
+    margin-right: -30px;
+}
+figcaption {
+    text-align: center;
+    color: brown;
+}
+li {
+    border-right: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 800;
+}
+article h1 {
+    margin-bottom: -12px;
+}
+aside a {
+    color: brown;
+}
+footer {
+    display: flex;
+    justify-content: right;
+    border-top: 1px solid;
+}
+footer p {
+    margin-right: 20px;
+}
