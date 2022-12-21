@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/bkgd_page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1024px;
+    border: 5px solid;
+}
+header {
+    color: #fff;
+}
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+li {
+    color: #fff;
+    border-style: dotted;
+    padding: 10px;
+}
+.lognav {
+    display: flex;
+    justify-content: space-between;
+}
+h1, h2, h3{
+    display: flex;
+    justify-content: center;
+}
+.section1 {
+    background-color: #fff;
+}
+.s1a {
+    display: flex;
+}
+.s1b {
+    display: flex;
+}
+.section2 {
+    display: flex;
+    background-color: #fff;
+}
+.book {
+    display: flex;
+    background-color: #ddeae4;
+    border: 5px #305a47 solid;
+}
