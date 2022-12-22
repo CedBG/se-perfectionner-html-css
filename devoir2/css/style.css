@@ -13,7 +13,6 @@ body {
 }
 .container {
     width: 1024px;
-    border: 5px solid;
 }
 header {
     color: #fff;
@@ -51,6 +50,41 @@ h1, h2, h3{
 }
 .book {
     display: flex;
+    flex-direction: column;
+}
+.section3 {
     background-color: #ddeae4;
     border: 5px #305a47 solid;
+    display: flex;
+    justify-content: center;
+}
+.book {
+    width: 480px;
+    height: 480px;
+    background-color: #ddeae4;
+    padding: 5px 20px 10px 20px;
+}
+.boisable {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.rivpierre {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.bois{
+    border: 5px #305a47 solid;
+}
+.pierre {
+    border: 5px #305a47 solid;
+}
+.sable {
+    border-top: 5px #305a47 solid;
+    border-right: 5px #305a47 solid;
+}
+.riviere {
+    border-left: 5px #305a47 solid;
+    border-bottom: 5px #305a47 solid;
 }
