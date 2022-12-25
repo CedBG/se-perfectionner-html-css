@@ -31,7 +31,7 @@ li {
     display: flex;
     justify-content: space-between;
 }
-h1, h2, h3{
+h1, h2, h3 {
     display: flex;
     justify-content: center;
 }
@@ -87,4 +87,34 @@ h1, h2, h3{
 .riviere {
     border-left: 5px #305a47 solid;
     border-bottom: 5px #305a47 solid;
+}
+footer {
+    background-color: #305a47;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer li {
+    border-style: none;
+}
+figcaption a {
+    text-decoration: none;
+    color: brown;
+}
+.montagne1 {
+    float: left;
+}
+.text1a {
+    float: left;
+}
+.submit {
+    background-color: #305a47;
+    border: 0;
+    color: #ddeae4;
+}
+span {
+    color: aqua;
+}
+em {
+    color: lightgrey;
 }
