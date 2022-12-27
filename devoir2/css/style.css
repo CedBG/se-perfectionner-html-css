@@ -13,28 +13,32 @@ body {
 }
 .container {
     width: 1024px;
+/* header */
 }
 header {
     color: #fff;
-}
-ul {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-}
-li {
-    color: #fff;
-    border-style: dotted;
-    padding: 10px;
 }
 .lognav {
     display: flex;
     justify-content: space-between;
 }
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    color: #fff;
+    border-style: dotted;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+}
 h1, h2, h3 {
     display: flex;
     justify-content: center;
 }
+/* section1 */
 .section1 {
     background-color: #fff;
 }
@@ -44,19 +48,16 @@ h1, h2, h3 {
 .s1b {
     display: flex;
 }
+span {
+    color: aqua;
+}
+em {
+    color: lightgrey;
+}
+/* section2 */
 .section2 {
     display: flex;
     background-color: #fff;
-}
-.book {
-    display: flex;
-    flex-direction: column;
-}
-.section3 {
-    background-color: #ddeae4;
-    border: 5px #305a47 solid;
-    display: flex;
-    justify-content: center;
 }
 .book {
     width: 480px;
@@ -88,34 +89,37 @@ h1, h2, h3 {
     border-left: 5px #305a47 solid;
     border-bottom: 5px #305a47 solid;
 }
-footer {
-    background-color: #305a47;
+/* section3 */
+.section3 {
+    background-color: #ddeae4;
+    border: 5px #305a47 solid;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-}
-footer li {
-    border-style: none;
-}
-figcaption a {
-    text-decoration: none;
-    color: brown;
-}
-.montagne1 {
-    float: left;
-}
-.text1a {
-    display: inline-block;
-    float: left;
 }
 .submit {
     background-color: #305a47;
     border: 0;
     color: #ddeae4;
 }
-span {
-    color: aqua;
+/* footer */
+footer {
+    background-color: #305a47;
+    display: flex;
+    justify-content: center;
 }
-em {
-    color: lightgrey;
+footer ul {
+    display: flex;
+    list-style: none;
 }
+footer li {
+    border-style: none;
+    color: #fff;
+}
+footer a {
+    text-decoration: none;
+}
+figcaption a {
+    text-decoration: none;
+    color: brown;
+}
+
