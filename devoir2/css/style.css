@@ -105,6 +105,7 @@ figcaption a {
     float: left;
 }
 .text1a {
+    display: inline-block;
     float: left;
 }
 .submit {
