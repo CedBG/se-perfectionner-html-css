@@ -31,6 +31,9 @@ nav li {
     border-style: dotted;
     padding: 10px;
 }
+nav a:hover {
+    color: white;
+}
 nav a {
     text-decoration: none;
 }
@@ -42,11 +45,11 @@ h1, h2, h3 {
 .section1 {
     background-color: #fff;
 }
-.s1a {
+.s1a ,.s1b {
     display: flex;
 }
-.s1b {
-    display: flex;
+.montagnea, .montagneb {
+    border: 3px solid black;
 }
 span {
     color: aqua;
@@ -54,10 +57,19 @@ span {
 em {
     color: lightgrey;
 }
+.text1a , .text1b {
+    border-right: 1px dashed lightgray;
+}
+figure a:hover {
+    color: #ccc;
+}
 /* section2 */
 .section2 {
     display: flex;
     background-color: #fff;
+}
+.montagnea:hover{
+    opacity: 0.5;
 }
 .book {
     width: 480px;
@@ -88,6 +100,12 @@ em {
 .riviere {
     border-left: 5px #305a47 solid;
     border-bottom: 5px #305a47 solid;
+}
+.saut {
+    border: 1px solid black;
+}
+.imgsaut:hover {
+    opacity: 0.9;
 }
 /* section3 */
 .section3 {
@@ -121,5 +139,8 @@ footer a {
 figcaption a {
     text-decoration: none;
     color: brown;
+}
+footer li:hover {
+    color: gray;
 }
 
